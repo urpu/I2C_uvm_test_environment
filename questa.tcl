@@ -1,0 +1,19 @@
+add wave testbench/c_intf/*
+add wave testbench/c_intf/start[0]          
+add wave testbench/c_intf/data_send[0]        
+add wave testbench/c_intf/num_bytes_send[0]   
+add wave testbench/c_intf/num_bytes_receive[0]
+add wave testbench/c_intf/addr_target[0]  
+add wave testbench/c_intf/start[1]        
+add wave testbench/c_intf/data_send[1]        
+add wave testbench/c_intf/num_bytes_send[1]   
+add wave testbench/c_intf/num_bytes_receive[1]
+add wave testbench/c_intf/addr_target[1] 
+add wave testbench/c_intf/start[2]          
+add wave testbench/c_intf/data_send[2]        
+add wave testbench/c_intf/num_bytes_send[2]   
+add wave testbench/c_intf/num_bytes_receive[2]
+add wave testbench/c_intf/addr_target[2]     
+add wave testbench/i2c_intf/*
+add wave testbench/di/*
+run -all
